@@ -1,0 +1,2 @@
+# praktyki
+zadadnie na praktyki
