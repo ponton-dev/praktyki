@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:background="#2E86C1">
+
+
+    <TextView
+        android:id="@+id/notatki"
+        android:textColor="@color/black"
+        android:text="Notatki"
+        android:textSize="250px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/not1"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:layout_below="@+id/notatki"
+        android:layout_centerHorizontal="true"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:scrollHorizontally="false" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:textColor="@color/black"
+        android:layout_marginTop="150px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/not1"
+        android:layout_centerHorizontal="true"
+        android:text="Mail"
+        android:textSize="100px" />
+
+    <EditText
+        android:id="@+id/mail1"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail"
+        android:layout_centerHorizontal="true"
+        android:hint="wpisz mail"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/wyslij"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail1"
+        android:layout_centerHorizontal="true"
+        android:text="WYŚLIJ" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/wyslij"
+        android:text="Cofnij" />
+
+    <Button
+        android:id="@+id/nextac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:text="-->" />
+
+
+</RelativeLayout>

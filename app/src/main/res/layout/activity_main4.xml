@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="#ecb939">
+
+
+    <TextView
+
+        android:textSize="100px"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zarejestruj" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:layout_below="@id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:hint="Login">
+
+
+    </EditText>
+
+    <EditText
+        android:password="true"
+        android:id="@+id/ed2"
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:layout_below="@id/ed1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:hint="Hasło">
+
+
+    </EditText>
+
+    <EditText
+        android:password="true"
+        android:id="@+id/ed3"
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:layout_below="@id/ed2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:hint="Powtórz hasło">
+
+
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="800px"
+        android:layout_height="150px"
+        android:layout_below="@id/ed3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:text="UTWÓRZ KONTO" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/wroc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:clickable="true"
+        android:onClick="powrot"
+        android:text="wróć do logowania"
+        android:textSize="50px"
+
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wroc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="70px" />
+
+
+</RelativeLayout>

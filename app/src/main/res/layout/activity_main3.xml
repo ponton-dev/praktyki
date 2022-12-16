@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#6EF43F"
+    >
+
+    <TextView
+        android:id="@+id/panel_nauczyciela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Panel Admina"
+        android:textColor="@color/black"
+        android:textSize="100px" />
+
+    <TextView
+        android:id="@+id/liczba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panel_nauczyciela"
+        android:layout_centerHorizontal="true"
+        android:text="wyświetl użytkowników"
+        android:textColor="@color/black"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/wyswietl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liczba"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100px"
+        android:text="Wyświetl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uczniowie"
+        android:layout_below="@id/wyswietl"
+        android:textSize="50px"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wyswietl"
+        android:layout_centerHorizontal="true"
+        android:text="WRÓĆ"
+        android:layout_marginTop="1000px"
+        />
+
+</RelativeLayout>
